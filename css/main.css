@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 130vw;
+    border-radius: 25px;
+}
+
+.nft-image{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin: 40px auto;
+}
+
+.container{
+    padding: 0 10%;
+}
+
+header h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+.desc p{
+    margin: 1.5em 0;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.indicator{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-ethereum{
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 13px;
+}
+
+.ethereum h2{
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+}
+
+.icon-clock{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.day h3{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin: 30px 0 30px 0;
+}
+
+.creation-by .image-avatar{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.creation-by h4{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.creation-by h4 span{
+    font-weight: 600;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    color: #fff;
+    font-size: 13px;
+}

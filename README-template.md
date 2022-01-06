@@ -16,8 +16,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -48,16 +46,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- HTML
+- CSS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -91,8 +82,48 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [resource 1](https://www.w3schools.com/cssref/css3_pr_background.asp) - CSS background property
+- [resource 2](https://www.w3schools.com/html/html_css.asp) - How to make a icon and text inline
+- [resource 3](https://www.w3schools.com/html/html_images.asp) - Help me to resize the image
+- [resource 4](https://www.w3schools.com/howto/howto_css_image_center.asp) - Really help me on how to center the image
+- [resource 5](https://stackoverflow.com/questions/3617906/restrict-p-to-one-line-and-ellipsize-when-necessary/3617978) - How to force the text to be in one line
+- [resource 6](https://www.w3schools.com/tags/tag_hr.asp) - Help me on how to make a horizontal line
+- [resource 7](https://www.w3schools.com/howto/howto_css_border_image.asp) - Tutorial on how to make a border to the image
+- [resource 8]()
+- [resource 9]()
+- [resource 10]()
+- [resource 11]()
+- [resource 12]()
+- [resource 13]()
+- [resource 14]()
+- [resource 15]()
+- [resource 16]()
+- [resource 17]()
+- [resource 18]()
+- [resource 19]()
+- [resource 20]()
+- [resource 21]()
+- [resource 22]()
+- [resource 23]()
+- [resource 24]()
+- [resource 25]()
+- [resource 26]()
+- [resource 27]()
+- [resource 28]()
+- [resource 29]()
+- [resource 30]()
+- [resource 31]()
+- [resource 32]()
+- [resource 33]()
+- [resource 34]()
+- [resource 35]()
+- [resource 36]()
+- [resource 37]()
+- [resource 38]()
+- [resource 39]()
+- [resource 40]()
+- [resource 41]()
+- [resource 42]()
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
