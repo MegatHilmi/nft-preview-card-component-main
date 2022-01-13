@@ -89,10 +89,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [resource 5](https://stackoverflow.com/questions/3617906/restrict-p-to-one-line-and-ellipsize-when-necessary/3617978) - How to force the text to be in one line
 - [resource 6](https://www.w3schools.com/tags/tag_hr.asp) - Help me on how to make a horizontal line
 - [resource 7](https://www.w3schools.com/howto/howto_css_border_image.asp) - Tutorial on how to make a border to the image
-- [resource 8]()
-- [resource 9]()
-- [resource 10]()
-- [resource 11]()
+- [resource 8](https://developer.mozilla.org/en-US/docs/Web/CSS/url()) - really help me on putting a url in CSS
+- [resource 9](https://www.w3schools.com/cssref/css3_pr_background-size.asp) - Help to adjust the size of background.
+- [resource 10](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) - tutorial on pseudoelement 
+- [resource 11](https://www.w3schools.com/howto/howto_css_display_element_hover.asp) - how to display an element on hover
 - [resource 12]()
 - [resource 13]()
 - [resource 14]()

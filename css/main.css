@@ -17,18 +17,53 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 130vw;
+    width: 27em;
+    height: 45em;
     border-radius: 25px;
 }
 
-.nft-image{
-    width: 100%;
-    height: auto;
+
+.nft-image-class{
+    background: url('../images/image-equilibrium.jpg') no-repeat;
+    background-size: 100% 100%;
+    /* background-position: 12% 83%; */
+    width: 20em;
+    height: 20em;
     border-radius: 25px;
-    display: block;
     margin: 40px auto;
 }
+
+.nft-image-class:hover:after{
+    content: "";
+    width: 319px;
+    height: 320px;
+    position: absolute;
+    margin: 0 auto;
+    opacity: 0.5;
+    transform: translateX(-47px);
+    border-radius: 25px;
+    background-color: hsl(178, 100%, 50%);
+    z-index: 0;
+    
+}
+
+.nft-image-class:hover:before{
+    content: url('../images/icon-view.svg');
+    position: relative;
+    top: 44%;
+    left: 43%;
+    z-index: 2;
+}
+
+.nft-image-class:hover{
+    cursor: pointer;
+}
+
+.nft-image-class:hover .nft-image-class::after{
+    visibility: visible;
+    cursor: pointer;
+}
+
 
 .container{
     padding: 0 10%;
@@ -39,6 +74,11 @@ header h1{
     font-weight: 600;
 }
 
+header h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 .desc p{
     margin: 1.5em 0;
     color: hsl(215, 51%, 70%);
@@ -46,30 +86,40 @@ header h1{
     font-size: 18px;
 }
 
+
+
 .indicator{
     display: flex;
     justify-content: space-between;
 }
 
-.icon-ethereum{
+/* .icon-ethereum{
     margin-right: 10px;
     vertical-align: middle;
     width: 13px;
-}
+} */
 
 .ethereum h2{
     font-size: 18px;
     color: hsl(178, 100%, 50%);
 }
 
-.icon-clock{
+h2::before{
+    content: url('../images/icon-ethereum.svg') " ";
+}
+
+/* .icon-clock{
     margin-right: 10px;
     vertical-align: middle;
-}
+} */
 
 .day h3{
     font-size: 18px;
     color: hsl(215, 51%, 70%);
+}
+
+h3::before{
+    content: url('../images/icon-clock.svg') " ";
 }
 
 hr{
@@ -96,6 +146,11 @@ hr{
 
 .creation-by h4 span{
     font-weight: 600;
+}
+
+.creation-by h4 span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .attribution{
